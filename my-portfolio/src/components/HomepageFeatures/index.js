@@ -8,28 +8,28 @@ const FeatureList = [
     Svg: require('@site/static/img/student.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Pre-final year Computer Student at SRM IST, Ramapuram performing 
+        an extraordinary academics with a CGPA of 9.81.
       </>
     ),
   },
   {
     title: 'Contributor',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/open_source.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Active open source contributor with 5+ merged pull 
+        requests across diverse repositories, actively improving various projects.
       </>
     ),
   },
   {
     title: 'Developer',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/developer.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Highly motivated Full-Stack Developer with a passion 
+        for creating user-friendly web applications (MERN) and native Android experiences using Kotlin.
       </>
     ),
   },

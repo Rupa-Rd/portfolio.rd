@@ -69,18 +69,37 @@ const config = {
         title: 'My Site',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/docusaurus.png',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'About Me',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            to: '/blog',
+            label: 'Academics',
+            position: 'left'
+          },
+          {
+            label:'Projects',
+            position: 'left',
+            to:'/blog',
+          },
+          {
+            label: 'Achievements',
+            position: 'left',
+            to:'/blog',
+          },
+          {
+            label: 'Internships',
+            position: 'left',
+            to:'/blog',
+          },
+          {
+            href: 'https://github.com/Rupa-Rd',
             label: 'GitHub',
             position: 'right',
           },
@@ -90,28 +109,32 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Coding Profiles',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Leetcode',
+                href: 'https://leetcode.com/user0207t/',
+              },
+              {
+                label: 'Hacker Rank',
+                href: 'https://www.hackerrank.com/profile/RA2111003020345',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Socials',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/roopa-dharshini-104526239/',
               },
+              // {
+              //   label: 'Email',
+              //   ,
+              // },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Link Tree',
+                href: 'https://linktr.ee/roopa_rd',
               },
             ],
           },
@@ -120,16 +143,16 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                href: 'https://rupard.hashnode.dev/',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Rupa-Rd',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © Developed by Rupa-rd`,
       },
       prism: {
         theme: prismThemes.github,
