@@ -80,7 +80,7 @@ const config = {
             to:'/myself'
           },
           {
-            to: '/',
+            to: '/academics',
             label: 'Academics',
             position: 'left'
           },

@@ -22,3 +22,7 @@
   justify-content: center;
 }
 img[alt=Profile-Pic]{height: 150px; width: 150px;}
+
+pre{
+  background: none;
+}
