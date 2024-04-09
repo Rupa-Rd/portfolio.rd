@@ -23,7 +23,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/myself">
             Let's Explore!
           </Link>
         </div>
@@ -37,7 +37,7 @@ export default function Home() {
   return (
     <Layout
       title={`Roopa`}
-      description="Description will go into a meta tag in <head />">
+      description="Portfolio">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

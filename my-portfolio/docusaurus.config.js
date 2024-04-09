@@ -73,30 +73,31 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            // type: 'docSidebar',
+            // sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'About Me',
+            to:'/myself'
           },
           {
-            to: '/blog',
+            to: '/',
             label: 'Academics',
             position: 'left'
           },
           {
             label:'Projects',
             position: 'left',
-            to:'/blog',
+            to:'/',
           },
           {
             label: 'Achievements',
             position: 'left',
-            to:'/blog',
+            to:'/',
           },
           {
             label: 'Internships',
             position: 'left',
-            to:'/blog',
+            to:'/',
           },
           {
             href: 'https://github.com/Rupa-Rd',
