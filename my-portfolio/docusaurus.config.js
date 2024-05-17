@@ -66,7 +66,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Rd\'s Portfolio',
         logo: {
           alt: 'My Site Logo',
           src: 'img/docusaurus.png',
@@ -87,17 +87,22 @@ const config = {
           {
             label:'Projects',
             position: 'left',
-            to:'/',
+            to:'/projects',
           },
           {
             label: 'Achievements',
             position: 'left',
-            to:'/',
+            to:'/achievements',
           },
           {
             label: 'Internships',
             position: 'left',
-            to:'/',
+            to:'/internships',
+          },
+          {
+            label: 'Open Source Contributions',
+            position: 'left',
+            to:'/opensource',
           },
           {
             href: 'https://github.com/Rupa-Rd',

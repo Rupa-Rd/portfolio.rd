@@ -7,12 +7,12 @@ title: Internships
     # Internship Experiences
 </center>
 
-<i>
+<!-- <i>
 ### Hitachi Solutions, Chennai
 <p>GenAi Intern (Apr 2024 - Present)</p>
 
 </i>
-<br/>
+<br/> -->
 
 <i>
 ### Social Winter of Code(SWOC), Virtual
