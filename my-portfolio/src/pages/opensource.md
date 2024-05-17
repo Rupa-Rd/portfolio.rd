@@ -7,6 +7,17 @@ title: Open Source Contributions
     # Contributions
 </center>
 
+## [(issue #1550)](https://github.com/akshitagupta15june/PetMe/issues/1550)
+
+<p>
+<strong>Problem:</strong>
+Mobile number is the only way to communicate with the user about the adoption. If the mobile number is not marked with required tag, then the user forgets to provide the mobile number and there won't be any medium to connect with the user. Hence, mobile number is a mandatory.
+</p>
+<p>
+<strong>Proposed Solution:</strong> 
+The phone number is should be marked required in order to collect the only source of medium to connect with the adopter. Also, the phone number pattern to get the correct 10 digit phone number along with the country code from the adopter.
+</p>
+
 ## [(issue #1199)](https://github.com/swapnilsparsh/30DaysOfJavaScript/issues/1199)
 
 <p>
